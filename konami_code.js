@@ -11,7 +11,7 @@ function init() {
 
     if (key === code[index]){
       index++;
-      console.log(`index is: ${index}`);
+      console.log(`index correct is: ${index}`);
 
       if (index === code.length) {
         window.alert("Hurray!");
@@ -20,6 +20,7 @@ function init() {
       }
     }
     else {
+      console.log(`index incorrect is: ${index}`);
       index = 0;
     }
   }
