@@ -20,8 +20,9 @@ function init() {
       }
     }
     else {
-      console.log(`index incorrect is: ${index}`);
       index = 0;
+      console.log(`index incorrect is: ${index}`);
+
     }
   }
 }
