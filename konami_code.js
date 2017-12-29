@@ -14,7 +14,7 @@ function init() {
       console.log(`index is: ${index}`);
 
       if (index === code.length) {
-        alert("Hurray!");
+        window.alert("Hurray!");
       }
     }
     else {
