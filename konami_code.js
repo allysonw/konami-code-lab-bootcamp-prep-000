@@ -7,7 +7,7 @@ function init() {
 
   function keyDownHandler(k) {
     console.log("key down");
-    let key = k.which;//parseInt(k.which || k.detail);
+    let key = k.key;//parseInt(k.which || k.detail);
     console.log(`key is: ${key}`);
 
     if (key === code[index]){
