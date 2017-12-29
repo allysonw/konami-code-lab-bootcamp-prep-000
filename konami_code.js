@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
   document.body.addEventListener('keydown', keyDownHandler);
-  console.log("HE");
+  console.log("initialized");
 
   function keyDownHandler(k) {
     let key = parseInt(k.which || k.detail);
@@ -15,6 +15,8 @@ function init() {
 
       if (index === code.length) {
         window.alert("Hurray!");
+
+        index = 0;
       }
     }
     else {
