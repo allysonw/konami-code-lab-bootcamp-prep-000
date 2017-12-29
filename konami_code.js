@@ -3,7 +3,6 @@ let index = 0;
 
 function init() {
   document.body.addEventListener('keydown', keyDownHandler);
-  console.log("initialized");
 
   function keyDownHandler(k) {
 
