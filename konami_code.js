@@ -6,6 +6,7 @@ function init() {
   console.log("initialized");
 
   function keyDownHandler(k) {
+    console.log("key down");
     let key = k.which;//parseInt(k.which || k.detail);
     console.log(`key is: ${key}`);
 
