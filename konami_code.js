@@ -10,7 +10,7 @@ function init() {
 
     if (key === code[index]){
       index++;
-      console.log(`index is: ${index});
+      console.log(`index is: ${index}`);
 
       if (index === code.length) {
         alert("Hurray!");
