@@ -6,13 +6,11 @@ function init() {
   console.log("initialized");
 
   function keyDownHandler(k) {
-    console.log("key down");
-    let key = k.location;//parseInt(k.which || k.detail);
-    console.log(`key is: ${key}`);
+
+    let key = k.location;
 
     if (key === code[index]){
       index++;
-      console.log(`index correct is: ${index}`);
 
       if (index === code.length) {
         window.alert("Hurray!");
